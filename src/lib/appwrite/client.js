@@ -61,5 +61,5 @@ export const appwriteService = {
         }
     }
 };
-
+export { config };
 export default client;
