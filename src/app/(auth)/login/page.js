@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 
+export const dynamic = 'force-dynamic';
 export default function LoginPage() {
     const [formData, setFormData] = useState({
         email: '',
